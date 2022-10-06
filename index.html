@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js" defer></script>
+    <script src="http://threejs.org/examples/js/libs/stats.min.js" defer></script>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- particles.js container -->
+    <div id="particles-js"></div>
+    
+
+    <div class="container">
+        <div class="quoteText"><i class="fa-solid fa-quote-left"></i>
+            <p class="QuoteText"></p>
+            <i class="fa-solid fa-quote-right"></i>
+            <button class="copyToClipboard" onclick="copyQuote()"><i class="fa-regular fa-copy"></i></button>
+        </div>
+        <div class="quoteAuthor"></div>
+        <button class="getNew" onclick="getNewQuote()"><i class="fa-solid fa-dice"></i></button>
+    </div>
+
+    <div class="status">
+        <!-- <div class="copied"> 
+            <p>quote copied to clipboard</p>
+            <div class="countdown"></div>
+        </div> -->
+    </div>
+  </body>
+</html>
+
